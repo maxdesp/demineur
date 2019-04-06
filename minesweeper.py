@@ -37,7 +37,7 @@ def create_matrix(size=SIZE):
 	return matrix
 
 def set_value(x,y, matrix, value):
-	""" obtenir la valeur d'un point de la matrice
+	""" affecter la valeur d'un point de la matrice
 	"""
 	print ("DEBUG : affecter {} à la position {},{}".format(value,x,y))
 	matrix[x][y] = value
@@ -45,7 +45,7 @@ def set_value(x,y, matrix, value):
 	
 
 def get_value(x,y, matrix):
-	""" attribuer une valeur à un point de la matrice
+	""" consulter la valeur d'un point de la matrice
 	"""
 	return matrix[x][y]
 
