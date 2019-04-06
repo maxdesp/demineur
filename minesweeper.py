@@ -59,14 +59,6 @@ def display_matrix(matrix):
 	# afficher ligne vide
 	print ("\naffichage de la matrice : \n")
 
-	# header
-	# ~ size = len(matrix)
-	# ~ header = []
-	# ~ header.append('0 ') # 1er col = 0
-	# numérotation alphabétique à partir de col 1
-	# ~ for x in range(size):
-		# ~ header.append(chr(65+x)+' ')
-		
 	print (HEADER)
 	
 	i=0
